@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOGS</title>
+    <style>
+        *{
+            margin: 0px;
+            border-radius: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(92, 34, 44);
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            padding-top: 30px;
+        }
+        .container{
+            height: 1200px;
+            width: 85%;
+            background-color: rgb(206, 149, 57);
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+        h2{
+            font-weight: bold;
+            padding: 10px;
+        }
+        p{
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-bottom: 30px;
+        }
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          background-color: #2f7288;
+          padding: 30px;
+          height: 1200px;
+          width: 100%;
+          grid-row-gap: 40px;
+          grid-column-gap: 20px;
+        }
+        .grid-item {
+          background-color: rgba(200, 174, 235, 0.8);
+          border: 1px solid rgba(0, 0, 0, 0.8);
+          padding-top: 10px;
+          padding-left: 7px;
+          font-size: 30px;
+          text-align: center;
+          width: 280px;
+          height: 500px;
+        }
+        .header img{
+           height: 100px;
+           width: 300px;
+           padding-right: 40px;
+           padding-left: 5px;
+           transition: all 5s 0s;
+        }
+        .header img:hover{
+           transform :scale(1.2)
+        }
+        .main h2{
+            font-size: 37px;
+        }
+        .d1{
+            font-size: 28px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .footer{
+            width: 260px;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            background-color: #8a2be2;
+            border: 2px solid black;
+        }
+        .footer img{
+            padding-top: 10px;
+            padding-left: 10px;
+            height: 25px;
+            width: 25px;
+        }
+        .f1{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #8a2be2;
+            height: 37px;
+            width: 100px;
+        }
+        #ab{
+            font-size: 15px;
+            height: 18px;
+            padding: 1px;
+            padding-left: 13px;
+           
+        }
+        #cd{
+            font-size: 15px;
+            height: 10px;
+            padding-left: 13px;
+        }
+        .f2{
+            font-size: medium;
+            padding-top: 9px;
+            padding-left: 35px;
+            margin: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>BLOGS WORLD</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias iste natus iusto unde asperiores nemo quia, voluptatem corporis repudiandae.
+        </p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="header">
+                    <a>
+                        <img src="https://source.unsplash.com/random/600×400?healthy">
+                    </a>
+                </div>
+                <div class="main">
+                    <a href="#">
+                        <h2> New Gadgets Released</h2>
+                    </a>
+                    <div class="d1">
+                        Check out the latest tech gadgets hitting the market,frolm smartphones to smartwatches.
+                    </div>                  
+                </div>
+                <div class="footer">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.QThP-_4Wac9GJHLTCQ5-sAHaJK&pid=Api&P=0&h=180">
+                    <div class="f1"> 
+                        <span id="ab">
+                            John Doe
+                        </span>
+                        <span id="cd">
+                            Sept19,2021
+                        </span>
+                    </div>
+                    <div class="f2">Technology</div>
+                </div>
+            </div>
+            <div class="grid-item"> 
+                <div class="header">
+                    <a>
+                        <img src="https://source.unsplash.com/random/600×400?technology">
+                    </a>
+                </div>
+                <div class="main">
+                    <a href="#">
+                        <h2> New Gadgets Released</h2>
+                    </a>
+                    <div class="d1">
+                        Check out the latest tech gadgets hitting the market,frolm smartphones to smartwatches.
+                    </div>                  
+                </div>
+                <div class="footer">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.QThP-_4Wac9GJHLTCQ5-sAHaJK&pid=Api&P=0&h=180">
+                    <div class="f1"> 
+                        <span id="ab">
+                            John Doe
+                        </span>
+                        <span id="cd">
+                            Sept19,2021
+                        </span>
+                    </div>
+                    <div class="f2">Technology</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="header">
+                    <a>
+                        <img src="https://source.unsplash.com/random/600×400?travel">
+                    </a>
+                </div>
+                <div class="main">
+                    <a href="#">
+                        <h2> New Gadgets Released</h2>
+                    </a>
+                    <div class="d1">
+                        Check out the latest tech gadgets hitting the market,frolm smartphones to smartwatches.
+                    </div>                  
+                </div>
+                <div class="footer">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.QThP-_4Wac9GJHLTCQ5-sAHaJK&pid=Api&P=0&h=180">
+                    <div class="f1"> 
+                        <span id="ab">
+                            John Doe
+                        </span>
+                        <span id="cd">
+                            Sept19,2021
+                        </span>
+                    </div>
+                    <div class="f2">Technology</div>
+                </div>
+            </div>
+            <div class="grid-item"> 
+                <div class="header">
+                    <a>
+                        <img src="https://source.unsplash.com/random/600×400?productivity">
+                    </a>
+                </div>
+                <div class="main">
+                    <a href="#">
+                        <h2> New Gadgets Released</h2>
+                    </a>
+                    <div class="d1">
+                        Check out the latest tech gadgets hitting the market,frolm smartphones to smartwatches.
+                    </div>                  
+                </div>
+                <div class="footer">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.QThP-_4Wac9GJHLTCQ5-sAHaJK&pid=Api&P=0&h=180">
+                    <div class="f1"> 
+                        <span id="ab">
+                            John Doe
+                        </span>
+                        <span id="cd">
+                            Sept19,2021
+                        </span>
+                    </div>
+                    <div class="f2">Technology</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="header">
+                    <a>
+                        <img src="https://source.unsplash.com/random/600×400?mindfullness">
+                    </a>
+                </div>
+                <div class="main">
+                    <a href="#">
+                        <h2> New Gadgets Released</h2>
+                    </a>
+                    <div class="d1">
+                        Check out the latest tech gadgets hitting the market,frolm smartphones to smartwatches.
+                    </div>                  
+                </div>
+                <div class="footer">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.QThP-_4Wac9GJHLTCQ5-sAHaJK&pid=Api&P=0&h=180">
+                    <div class="f1"> 
+                        <span id="ab">
+                            John Doe
+                        </span>
+                        <span id="cd">
+                            Sept19,2021
+                        </span>
+                    </div>
+                    <div class="f2">Technology</div>
+                </div>
+            </div>
+            <div class="grid-item"> 
+                <div class="header">
+                    <a>
+                        <img src="https://source.unsplash.com/random/600×400?sustainability">
+                    </a>
+                </div>
+                <div class="main">
+                    <a href="#">
+                        <h2> New Gadgets Released</h2>
+                    </a>
+                    <div class="d1">
+                        Check out the latest tech gadgets hitting the market,frolm smartphones to smartwatches.
+                    </div>                  
+                </div>
+                <div class="footer">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.QThP-_4Wac9GJHLTCQ5-sAHaJK&pid=Api&P=0&h=180">
+                    <div class="f1"> 
+                        <span id="ab">
+                            John Doe
+                        </span>
+                        <span id="cd">
+                            Sept19,2021
+                        </span>
+                    </div>
+                    <div class="f2">Technology</div>
+                </div>
+            </div>
+            <div class="grid-item"> 
+                <div class="header">
+                    <a>
+                        <img src="https://source.unsplash.com/random/600×400?positivity">
+                    </a>
+                </div>
+                <div class="main">
+                    <a href="#">
+                        <h2> New Gadgets Released</h2>
+                    </a>
+                    <div class="d1">
+                        Check out the latest tech gadgets hitting the market,frolm smartphones to smartwatches.
+                    </div>                  
+                </div>
+                <div class="footer">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.QThP-_4Wac9GJHLTCQ5-sAHaJK&pid=Api&P=0&h=180">
+                    <div class="f1"> 
+                        <span id="ab">
+                            John Doe
+                        </span>
+                        <span id="cd">
+                            Sept19,2021
+                        </span>
+                    </div>
+                    <div class="f2">Technology</div>
+                </div>
+            </div>
+            <div class="grid-item"> 
+                <div class="header">
+                    <a>
+                        <img src="https://source.unsplash.com/random/600×400?birds">
+                    </a>
+                </div>
+                <div class="main">
+                    <a href="#">
+                        <h2> New Gadgets Released</h2>
+                    </a>
+                    <div class="d1">
+                        Check out the latest tech gadgets hitting the market,frolm smartphones to smartwatches.
+                    </div>                  
+                </div>
+                <div class="footer">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.QThP-_4Wac9GJHLTCQ5-sAHaJK&pid=Api&P=0&h=180">
+                    <div class="f1"> 
+                        <span id="ab">
+                            John Doe
+                        </span>
+                        <span id="cd">
+                            Sept19,2021
+                        </span>
+                    </div>
+                    <div class="f2">Technology</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
